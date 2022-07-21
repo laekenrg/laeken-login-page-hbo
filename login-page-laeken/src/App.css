@@ -1,0 +1,154 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#navbarNav {
+  justify-content: end;
+}
+
+body {
+  background-image: url(https://hbomax-images.warnermediacdn.com/2021-12/NewHeroImage_sources_2021_11_22_desktop_Nordic_NoHeart_v3.jpg?host=wme-hbomax-drupal-prod.s3.amazonaws.com&itok=E_RTZ5XU);
+  background-size: cover;
+  font-size: 12px !important;
+  font-weight: 700 !important;
+}
+
+#nav-bar {
+  background-color: rgba(0, 0, 0, 0.3) !important;
+  padding: 0px 23px 0px 13px;
+  height: 30px;
+}
+
+.hbo-logo {
+  height: 20px;
+  padding-bottom: 5px;
+}
+
+.small-price {
+  vertical-align: super;
+  text-decoration: line-through;
+  font-size: 9px;
+}
+.small-time {
+  vertical-align: super;
+  font-size: 9px;
+}
+
+.card {
+  margin-top: 150px;
+  margin-left: 430px;
+  display: flex !important;
+  justify-content: center !important;
+  width: 400px;
+  background-color: rgba(0, 0, 0, 0.3) !important;
+  color: white;
+}
+
+.container-data-card-main {
+  display: flex;
+  flex-grow: 1;
+}
+.container-data-card {
+  width: 183px !important;
+}
+
+.container-data-card h2 {
+  font-size: 20px;
+  text-align: center;
+}
+.container-data-card h3 {
+  font-size: 10px;
+  text-align: center;
+}
+
+.container-title-card {
+  text-align: center;
+}
+
+.buttons-card {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-link {
+  text-decoration: none;
+  text-align: center;
+}
+
+.button-link {
+  border-radius: 40px !important;
+  border: solid 2px rgb(73, 12, 176) !important;
+
+  flex-grow: 1;
+  width: 20px;
+  display: flex;
+  margin-left: 20px;
+  background-color: rgb(73, 12, 176) !important;
+}
+
+.button-link:hover {
+  background-color: transparent !important;
+}
+
+.sign-in-button {
+  border-radius: 40px !important;
+  border: solid 2px rgb(73, 12, 176) !important;
+  background-color: rgb(73, 12, 176) !important;
+  font-size: 12px !important;
+  letter-spacing: 4px;
+}
+
+.sign-in-button-container {
+  justify-content: center;
+  display: flex;
+}
+
+.card-sign-in {
+  margin-top: 80px;
+  margin-left: 430px;
+  display: flex !important;
+  justify-content: center !important;
+  width: 400px;
+  background-color: rgb(25,25,25) !important;
+  color: white;
+}
+
+.landing-saludo{
+  color: white;
+  text-align: center;
+}
